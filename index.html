@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
   <meta charset="utf-8">
@@ -182,9 +182,52 @@
     </div>
   </div>
 
+
   <div class="container">
+    <div class="row d-flex justify-content-center">
+
+      <div class="col-xl-6">
+        <form action="#">
+          <div class="my-4">
+            <label class="form-label" for="name">Имя*</label>
+            <input class="form-control" id="name" type="text" placeholder="Имя">
+          </div>
+          <div class="my-4">
+            <label class="form-label" for="surname">Фамилия*</label>
+            <input class="form-control" id="surname" type="text" placeholder="Фамилия">
+          </div>
+          <div class="my-4">
+            <label class="form-label" for="fullname">Отчество</label>
+            <input class="form-control" id="fullname" type="text" placeholder="Отчество">
+          </div>
+
+          <div class="my-4">
+            <label class="form-label" for="email">Адрес електронной почты*</label>
+            <input class="form-control" id="email" type="text" placeholder="Адрес електронной почты">
+          </div>
+          <div class="my-4">
+            <label class="form-label" for="password">Пароль</label>
+            <input class="form-control" id="password" type="password" placeholder="Пароль">
+          </div>
+          <div class="my-4">
+            <label class="form-label" for="url">Адрес сайта</label>
+            <input class="form-control" id="url" type="text" name="url" value="mysite.name"
+              placeholder="Адрес вашего сайта">
+          </div>
+          <div>
+            <button class="btn btn-primary d-block w-100 mb-4" type="reset">Сбросить</button>
+            <button class="btn btn-primary d-block w-100" type="submit">Отправить</button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 col-md-12">
         <form action="">
           <div class="my-4">
             <label class="form-label" for="name">Имя*</label>
@@ -203,7 +246,7 @@
           </div>
         </form>
       </div>
-      <div class="col-6">
+      <div class="col-6 col-md-12">
         <form action="">
           <div class="my-4">
             <label class="form-label" for="email">Адрес електронной почты*</label>
@@ -223,31 +266,30 @@
         </form>
       </div>
     </div>
-  </div>
+  </div> -->
+
   <footer class="bg-dark text-center text-white mt-4">
     <div class="container p-4 pb-0">
-      <section class="">
-        <form action="">
-          <div class="row d-flex justify-content-center">
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
-              </p>
-            </div>
-            <div class="col-md-5 col-12">
-              <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example29" class="form-control" />
-                <label class="form-label" for="form5Example29">Email address</label>
-              </div>
-            </div>
-            <div class="col-auto">
-              <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
-              </button>
+      <form action="#">
+        <div class="row d-flex justify-content-center">
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Подпишитесь на нашу рассылку</strong>
+            </p>
+          </div>
+          <div class="col-md-5 col-12">
+            <div class="form-outline form-white mb-3">
+              <input type="email" id="form5Example29" class="form-control" />
+              <label class="form-label" for="form5Example29">Адрес электронной почты</label>
             </div>
           </div>
-        </form>
-      </section>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Подписаться
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © Denis Lisyutenko
